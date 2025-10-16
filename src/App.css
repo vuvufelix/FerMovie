@@ -124,3 +124,35 @@
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 645px) {
+    .main-container {
+        h2 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .film-card {
+        width: calc(90% / 2);
+    }
+
+    .film-card a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .main-container {
+        h2 {
+            font-size: 1.1rem;
+        }
+    }
+
+    .film-card {
+        width: 90%;
+    }
+
+    .film-card a {
+        font-size: 0.8rem;
+    }
+}

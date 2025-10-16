@@ -30,6 +30,7 @@ const Header = () => {
                 </Link>
                 <form onSubmit={movieName}>
                     <input 
+                        onKeyUp={press}
                         placeholder="Pesquisar filme" 
                         type="text"
                         onChange={e => setText(e.target.value)}

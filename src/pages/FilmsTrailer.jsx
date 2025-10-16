@@ -9,7 +9,6 @@ const videoURL = import.meta.env.VITE_API_VIDEO
 const FilmsTrailer = () => {
 
     const [videos, setVideos] = useState([])
-    const [oneVideo, SetOneVideo] = useState([])
 
     const { id } = useParams()
 
@@ -25,7 +24,6 @@ const FilmsTrailer = () => {
 
     useEffect(() => {
         movieVideos(id)
-        console.log(oneVideo)
     }, [id])
 
     useEffect(() => {

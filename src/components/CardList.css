@@ -7,6 +7,7 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 0.5rem black;
     transition: .3s;
+    justify-content: space-between;
 
     a {
         width: 100%;
@@ -26,7 +27,8 @@
     div {
         font-size: 1.2rem;
         font-weight: bold;
-        margin: 0.7rem 0 0.6rem 0;
+        margin-bottom: 0.6rem;
+        margin-top: 0.5rem;
     }
 
     span {
@@ -54,5 +56,41 @@
         border: 1px solid #ee150e;
         color: #ee150e;
         background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .card-list {
+        width: calc(90% / 2);
+
+        div {
+            font-size: 1rem;
+        }
+
+        span {
+            font-size: 0.9rem;
+        }
+
+        button {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .card-list {
+        width: 90%;
+
+        div {
+            font-size: 0.9rem;
+        }
+
+        span {
+            font-size: 0.8rem;
+        }
+
+        button {
+            font-size: 0.8rem;
+        }
     }
 }

@@ -59,4 +59,33 @@ header {
             }
         }
     }
+
+    @media screen and (max-width: 645px) {
+
+        .header-container {
+            flex-direction: column;
+
+            a {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            form {
+                width: 100%;
+                margin-top: 1rem;
+
+                input {
+                    flex: 1;
+                    outline-color: #ee150e;
+                    outline-width: 0.1rem;
+                }
+
+                button {
+                    padding: 0.6rem 0.8rem;
+                }
+            }
+        }
+
+    }
 }
