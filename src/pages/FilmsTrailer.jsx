@@ -34,7 +34,7 @@ const FilmsTrailer = () => {
             easing: 'ease-in-out',
             origin: 'left',
             reset: false  
-        });
+        })
     }, [])
 
     return (

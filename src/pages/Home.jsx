@@ -21,7 +21,7 @@ function Home() {
     }
   }
 
-  const upComingMovie = async(url) => {
+  const upComingMovie = async (url) => {
     try {
       const response = await fetch(url)
       const res = await response.json()

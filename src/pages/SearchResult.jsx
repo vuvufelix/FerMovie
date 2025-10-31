@@ -35,7 +35,7 @@ const SearchResult = () => {
             easing: 'ease-in-out', 
             origin: 'left',  
             reset: false
-        });
+        })
     }, [])
 
     return (

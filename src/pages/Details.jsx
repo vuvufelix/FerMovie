@@ -34,21 +34,21 @@ const Details = () => {
         ScrollReveal().reveal('.element-info', { 
             delay: 200,
             distance: '80%',
-            duration: 3000, 
+            duration: 1000, 
             easing: 'ease-in-out',
             origin: 'left',
             reset: false,
             interval: 400
-        });
+        })
 
         ScrollReveal().reveal('img', {
             delay: 200,
             distance: "80%",
-            duration: 3000,
+            duration: 2000,
             easing: "ease-in-out",
             origin: "bottom",
             reset: false 
-        });
+        })
 
     }, [])
 
