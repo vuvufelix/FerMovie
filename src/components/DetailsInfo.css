@@ -70,7 +70,7 @@
 @media screen and (max-width: 645px) {
     .details-info {
         p {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         .container-elements {
@@ -90,7 +90,7 @@
         padding: 0;
         
         p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
 
         .container-elements {

@@ -41,15 +41,6 @@ const Details = () => {
             interval: 400
         })
 
-        ScrollReveal().reveal('img', {
-            delay: 200,
-            distance: "80%",
-            duration: 2000,
-            easing: "ease-in-out",
-            origin: "bottom",
-            reset: false 
-        })
-
     }, [])
 
     return (

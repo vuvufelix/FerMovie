@@ -64,15 +64,15 @@
         width: calc(90% / 2);
 
         div {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
 
         span {
-            font-size: 0.9rem;
+            font-size: 0.7rem;
         }
 
         button {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
 }
@@ -82,15 +82,15 @@
         width: 90%;
 
         div {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         span {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
 
         button {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
         }
     }
 }
